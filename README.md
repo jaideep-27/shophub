@@ -1,5 +1,30 @@
 # ShopHub - Modern E-commerce Experience 🛍️
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14+ recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+bash
+git clone https://github.com/jaideep-27/shophub
+cd ecommerce-app
+
+2. Install dependencies:
+bash
+npm install
+
+
+3. Start the development server:
+bash
+npm start
+
+
+Visit `http://localhost:5173` to view the app.
+
 ## ✨ Overview
 
 ShopHub is a sleek, modern e-commerce platform built with React that delivers an exceptional shopping experience. With its intuitive interface and smooth interactions, shopping becomes both efficient and enjoyable.
@@ -58,22 +83,14 @@ Our design approach focuses on:
 - Loading states
 - Micro-interactions
 
-## 🎯 User Experience
-
-- Intuitive navigation
-- Clear visual feedback
-- Smooth transitions
-- Responsive design
-- Accessibility focused
-- Performance optimized
-
 ## 🛠️ Technical Stack
 
-- React
+- React 18
+- Vite
 - Styled Components
-- Redux Toolkit
-- Context API
-- Modern JavaScript
+- Redux Toolkit (for products)
+- Context API (for cart)
+- Axios (API calls)
 
 ## 📱 Responsive Design
 
@@ -83,32 +100,60 @@ Fully responsive across:
 - Tablet (768px+)
 - Mobile (320px+)
 
-## 🔍 Search Experience
+## 💭 Challenges & Future Improvements
 
-- Real-time filtering
-- Category suggestions
-- Clear visual feedback
-- Smart dropdown behavior
-- Keyboard navigation
+### Current Limitations
+- Limited to category-based search
+- Basic cart functionality
+- No data persistence
+- No authentication system
 
-## 🎨 Component Library
-
-- ProductCard
-- SearchBox
-- Header
-- Toast Notifications
-- Loading States
-- Error States
-
-## 🌟 Future Enhancements
-
+### Planned Improvements
 - Dark mode support
-- Advanced filtering
+- Advanced filtering options
 - Wishlist functionality
-- Product comparisons
+- Product details page
+- Search by product name
+- User authentication
+- Full checkout process
 - Enhanced animations
-- Social sharing
+- Better loading states
+- Improved error handling
+
+## 📦 Dependencies
+json
+{
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"styled-components": "^6.0.0",
+"@reduxjs/toolkit": "^1.9.0",
+"axios": "^1.3.0"
+}
+
+
+## 🔍 API Integration
+
+The app uses the [Fake Store API](https://fakestoreapi.com/) for:
+- Product listings
+- Category filtering
+- Product details
+
+## 🎯 Component Structure
+
+- **ProductCard**: Main product display component
+- **SearchBox**: Category search and filtering
+- **Header**: Navigation and cart indicator
+- **Toast**: Success notifications
+- **Loading/Error States**: User feedback
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+[MIT](LICENSE)
 
 ---
 
-Built with 💙 by [Your Name]
+Built with 💙 by Jaideep
